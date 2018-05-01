@@ -12,6 +12,11 @@ public class Kalkulator {
         return a - b;
     }
 
+    public int iloczyn (int a, int b){
+        return a*b;
+    }
+
+
     public static void main(String [] args){
 
         Kalkulator calc = new Kalkulator();
